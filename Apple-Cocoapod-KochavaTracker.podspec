@@ -39,10 +39,10 @@ Pod::Spec.new do |s|
 #   }
 
 #   s.public_header_files = 'Apple-Cocoapod-KochavaTracker/Classes/**/*.h'
-    s.ios.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'iAd', 'SystemConfiguration', 'WebKit'
-    s.osx.frameworks   = 'Foundation', 'AppKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'iAd', 'SystemConfiguration', 'WebKit'
-    s.tvos.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'iAd', 'SystemConfiguration', 'WebKit'
-    s.watchos.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'CoreLocation', 'CoreTelephony', 'iAd', 'SystemConfiguration', 'WebKit'
+    s.ios.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'CoreTelephony', 'iAd', 'SystemConfiguration', 'WebKit'
+    s.osx.frameworks   = 'Foundation', 'AppKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'CoreTelephony', 'SystemConfiguration', 'WebKit'
+    s.tvos.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'SystemConfiguration'
+    s.watchos.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics'
     s.dependency 'Apple-Cocoapod-KochavaCore', '~> 0.1.0'
 
     # s.platforms = { :ios => "10.3", :osx => "10.14", :tvos => "10.2", :watchos => "3.2" }
