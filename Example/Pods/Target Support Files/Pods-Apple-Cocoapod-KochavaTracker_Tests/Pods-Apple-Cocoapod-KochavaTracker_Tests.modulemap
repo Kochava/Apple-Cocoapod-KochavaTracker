@@ -1,0 +1,6 @@
+framework module Pods_Apple_Cocoapod_KochavaTracker_Tests {
+  umbrella header "Pods-Apple-Cocoapod-KochavaTracker_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

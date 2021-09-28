@@ -1,0 +1,23 @@
+PODS:
+  - Apple-Cocoapod-KochavaCore (0.1.0)
+  - Apple-Cocoapod-KochavaTracker (0.1.0):
+    - Apple-Cocoapod-KochavaCore (~> 0.1.0)
+
+DEPENDENCIES:
+  - Apple-Cocoapod-KochavaTracker (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Apple-Cocoapod-KochavaCore
+
+EXTERNAL SOURCES:
+  Apple-Cocoapod-KochavaTracker:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Apple-Cocoapod-KochavaCore: 3c82dbcd03a48cf63976bf650bd21794a45e2f7c
+  Apple-Cocoapod-KochavaTracker: 543b72cb7ee1b4239c1a7fff0e7fa17437124cb7
+
+PODFILE CHECKSUM: 27459d4ec418ad62e57f9ee84cf8913dce7fe953
+
+COCOAPODS: 1.10.1

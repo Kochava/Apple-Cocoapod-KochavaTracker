@@ -1,0 +1,6 @@
+framework module Apple_Cocoapod_KochavaTracker {
+  umbrella header "Apple-Cocoapod-KochavaTracker-umbrella.h"
+
+  export *
+  module * { export * }
+}

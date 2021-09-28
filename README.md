@@ -1,29 +1,48 @@
 # Apple-Cocoapod-KochavaTracker
 
-[![CI Status](https://img.shields.io/travis/johnbushnell/Apple-Cocoapod-KochavaTracker.svg?style=flat)](https://travis-ci.org/johnbushnell/Apple-Cocoapod-KochavaTracker)
-[![Version](https://img.shields.io/cocoapods/v/Apple-Cocoapod-KochavaTracker.svg?style=flat)](https://cocoapods.org/pods/Apple-Cocoapod-KochavaTracker)
-[![License](https://img.shields.io/cocoapods/l/Apple-Cocoapod-KochavaTracker.svg?style=flat)](https://cocoapods.org/pods/Apple-Cocoapod-KochavaTracker)
-[![Platform](https://img.shields.io/cocoapods/p/Apple-Cocoapod-KochavaTracker.svg?style=flat)](https://cocoapods.org/pods/Apple-Cocoapod-KochavaTracker)
+[![Version](https://img.shields.io/cocoapods/v/Apple-Cocoapod-KochavaTracker.svg?style=flat)](http://cocoapods.org/pods/Apple-Cocoapod-KochavaTracker)
+[![Releases](https://img.shields.io/github/v/release/kochava/Apple-SwiftPackage-KochavaTracker?include_prereleases&sort=semver)](https://github.com/Kochava/Apple-SwiftPackage-KochavaTracker/releases)
+[![License](https://img.shields.io/cocoapods/l/Apple-Cocoapod-KochavaTracker.svg?style=flat)](http://cocoapods.org/pods/Apple-Cocoapod-KochavaTracker)
+[![Platform](https://img.shields.io/cocoapods/p/Apple-Cocoapod-KochavaTracker.svg?style=flat)](http://cocoapods.org/pods/Apple-Cocoapod-KochavaTracker)
 
-## Example
+<img src="https://storage.googleapis.com/kochava-web/2016/07/Kochava-horizontal-black-800x154.png" width="260" />
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+## Overview
+
+The KochavaTracker module is an optional module within the Kochava SDK providing install attribution and analytics.  This includes support for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.
+
+The Kochava SDK is a lightweight and easy to integrate SDK written in Objective-C, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
+
+## Built on
+
+* Xcode 12.4
 
 ## Requirements
 
+* iOS 10.3
+
+## Dependencies
+
+* [KochavaCore](https://cocoapods.org/pods/Apple-Cocoapod-KochavaCore)
+[![Version](https://img.shields.io/cocoapods/v/Apple-Cocoapod-KochavaCore.svg?style=flat)](https://cocoapods.org/pods/Apple-Cocoapod-KochavaCore) [![Download](https://img.shields.io/github/v/release/kochava/Apple-SwiftPackage-KochavaCore?include_prereleases&sort=semver)](https://github.com/Kochava/Apple-SwiftPackage-KochavaCore/releases)
+
 ## Installation
 
-Apple-Cocoapod-KochavaTracker is available through [CocoaPods](https://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+Apple-Cocoapod-KochavaTracker is available through [CocoaPods](http://cocoapods.org).
+To install it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'Apple-Cocoapod-KochavaTracker'
 ```
 
+## Example
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
 ## Author
 
-johnbushnell, jbushnell@kochava.com
+Kochava, support@kochava.com
 
 ## License
 
-Apple-Cocoapod-KochavaTracker is available under the MIT license. See the LICENSE file for more info.
+KochavaTracker is available under the [Kochava Terms of Service](https://www.kochava.com/terms-of-service/). See the LICENSE file for more info.

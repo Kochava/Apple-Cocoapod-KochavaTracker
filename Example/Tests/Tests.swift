@@ -1,5 +1,6 @@
 import XCTest
-import Apple-Cocoapod-KochavaTracker
+// import Apple-Cocoapod-KochavaTracker
+import KochavaTracker
 
 class Tests: XCTestCase {
     
