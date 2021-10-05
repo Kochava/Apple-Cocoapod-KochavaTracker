@@ -776,41 +776,6 @@
 
 
 
-#pragma mark - feature SDK Version
-
-
-
-#if TARGET_OS_TV
-@protocol KVATrackerSDKVersionJSExport <JSExport>
-- (nullable NSString *)sdkVersionString;
-@end
-#endif
-
-
-
-#if TARGET_OS_TV
-@interface KVATracker (SDKVersion_Public) <KVATrackerSDKVersionJSExport>
-#else
-@interface KVATracker (SDKVersion_Public)
-#endif
-
-
-
-/*!
- @method - sdkVersionString
- 
- @brief A method to return the sdk version string.
- 
- @discussion The returned value includes the name of the SDK, followed by its semantic version.  When applicable it will be followed by a wrapper SDK version in parentheses.
- */
-- (nullable NSString *)sdkVersionString;
-
-
-
-@end
-
-
-
 #pragma mark - feature Sleep
 
 

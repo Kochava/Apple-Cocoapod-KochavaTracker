@@ -1,6 +1,6 @@
 {
   "name": "Apple-Cocoapod-KochavaTracker",
-  "version": "0.1.0",
+  "version": "5.0.0",
   "summary": "The KochavaTracker module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.",
   "description": "The KochavaTracker module is an optional module within the Kochava SDK providing install attribution and analytics.  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.",
   "homepage": "http://www.kochava.com",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Kochava/Apple-Cocoapod-KochavaTracker.git",
-    "tag": "0.1.0"
+    "tag": "5.0.0"
   },
   "platforms": {
     "ios": "10.3",
@@ -28,7 +28,6 @@
       "AVFoundation",
       "AdSupport",
       "CoreGraphics",
-      "CoreLocation",
       "CoreTelephony",
       "iAd",
       "SystemConfiguration",
@@ -42,9 +41,7 @@
       "AVFoundation",
       "AdSupport",
       "CoreGraphics",
-      "CoreLocation",
       "CoreTelephony",
-      "iAd",
       "SystemConfiguration",
       "WebKit"
     ]
@@ -56,11 +53,7 @@
       "AVFoundation",
       "AdSupport",
       "CoreGraphics",
-      "CoreLocation",
-      "CoreTelephony",
-      "iAd",
-      "SystemConfiguration",
-      "WebKit"
+      "SystemConfiguration"
     ]
   },
   "watchos": {
@@ -68,18 +61,12 @@
       "Foundation",
       "UIKit",
       "AVFoundation",
-      "AdSupport",
-      "CoreGraphics",
-      "CoreLocation",
-      "CoreTelephony",
-      "iAd",
-      "SystemConfiguration",
-      "WebKit"
+      "CoreGraphics"
     ]
   },
   "dependencies": {
     "Apple-Cocoapod-KochavaCore": [
-      "~> 0.1.0"
+      "~> 5.0.0"
     ]
   },
   "vendored_frameworks": "Apple-Cocoapod-KochavaTracker/Frameworks/KochavaTracker.xcframework",

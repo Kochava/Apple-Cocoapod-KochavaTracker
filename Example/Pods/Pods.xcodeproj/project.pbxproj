@@ -17,7 +17,6 @@
 				F13F92CEF3E07AAB315F6698B1A09E7B /* PBXTargetDependency */,
 			);
 			name = "Apple-Cocoapod-KochavaTracker";
-			productName = "Apple-Cocoapod-KochavaTracker";
 		};
 		FFA6DFF773F3B8FBDF398335B9E05792 /* Apple-Cocoapod-KochavaCore */ = {
 			isa = PBXAggregateTarget;
@@ -28,7 +27,6 @@
 			dependencies = (
 			);
 			name = "Apple-Cocoapod-KochavaCore";
-			productName = "Apple-Cocoapod-KochavaCore";
 		};
 /* End PBXAggregateTarget section */
 
@@ -81,23 +79,23 @@
 		352FECA3D6FBCFE9F156A1A50CA5612C /* Apple-Cocoapod-KochavaTracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Apple-Cocoapod-KochavaTracker.debug.xcconfig"; sourceTree = "<group>"; };
 		3CA25C0EA241279A8E75E7275A8BD87B /* Pods-Apple-Cocoapod-KochavaTracker_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apple-Cocoapod-KochavaTracker_Tests-Info.plist"; sourceTree = "<group>"; };
 		444121F8D83189B292BB52BAEA18C5B1 /* Pods-Apple-Cocoapod-KochavaTracker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Apple-Cocoapod-KochavaTracker_Example-dummy.m"; sourceTree = "<group>"; };
-		4458FD15998082250D98C6533FBF24CD /* Pods_Apple_Cocoapod_KochavaTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apple_Cocoapod_KochavaTracker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4458FD15998082250D98C6533FBF24CD /* Pods_Apple_Cocoapod_KochavaTracker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Apple_Cocoapod_KochavaTracker_Example.framework; path = "Pods-Apple-Cocoapod-KochavaTracker_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CC98C32646F567A8BA87C4D108D10FA /* Pods-Apple-Cocoapod-KochavaTracker_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apple-Cocoapod-KochavaTracker_Example-Info.plist"; sourceTree = "<group>"; };
-		575456FF4072B06A018CA451D689874A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		60373B9847C48B6EC1548A739D05FFE4 /* KochavaCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = KochavaCore.xcframework; path = "Apple-Cocoapod-KochavaCore/Frameworks/KochavaCore.xcframework"; sourceTree = "<group>"; };
-		634C33FFECBEDDC6FE21817CFBD1F677 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		673920FFBA3B8DC8D445C135BD66C767 /* KochavaTracker.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = KochavaTracker.xcframework; path = "Apple-Cocoapod-KochavaTracker/Frameworks/KochavaTracker.xcframework"; sourceTree = "<group>"; };
+		575456FF4072B06A018CA451D689874A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		60373B9847C48B6EC1548A739D05FFE4 /* KochavaCore.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KochavaCore.xcframework; path = "Apple-Cocoapod-KochavaCore/Frameworks/KochavaCore.xcframework"; sourceTree = "<group>"; };
+		634C33FFECBEDDC6FE21817CFBD1F677 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		673920FFBA3B8DC8D445C135BD66C767 /* KochavaTracker.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KochavaTracker.xcframework; path = "Apple-Cocoapod-KochavaTracker/Frameworks/KochavaTracker.xcframework"; sourceTree = "<group>"; };
 		6843C8EC79B69FCAB5FE8112C7A477C1 /* Pods-Apple-Cocoapod-KochavaTracker_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Apple-Cocoapod-KochavaTracker_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E5042096BBDD9199CA07C285C13FBAA /* Apple-Cocoapod-KochavaCore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Apple-Cocoapod-KochavaCore.release.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7586A8DB8F73AB263EDA39790267F58F /* Pods-Apple-Cocoapod-KochavaTracker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Apple-Cocoapod-KochavaTracker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		88D122D02892AC2B6D8EA7B91632E1AA /* Apple-Cocoapod-KochavaTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = "Apple-Cocoapod-KochavaTracker.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88D122D02892AC2B6D8EA7B91632E1AA /* Apple-Cocoapod-KochavaTracker.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = "Apple-Cocoapod-KochavaTracker.podspec"; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		8CB0DF9118300C9A8C590D335CDF34CA /* Pods-Apple-Cocoapod-KochavaTracker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Apple-Cocoapod-KochavaTracker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		919EE6CCF084E9FEEAFFF1887999598D /* Apple-Cocoapod-KochavaCore-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Apple-Cocoapod-KochavaCore-xcframeworks.sh"; sourceTree = "<group>"; };
 		99860B47429D7366066BBC7BEE83B43D /* Pods-Apple-Cocoapod-KochavaTracker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Apple-Cocoapod-KochavaTracker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A05C086B77CD9286D73BD709F3A2A765 /* Pods-Apple-Cocoapod-KochavaTracker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apple-Cocoapod-KochavaTracker_Example.release.xcconfig"; sourceTree = "<group>"; };
-		BB472C3CC8053888E82E2AA00E3A3B2A /* Pods_Apple_Cocoapod_KochavaTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apple_Cocoapod_KochavaTracker_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB472C3CC8053888E82E2AA00E3A3B2A /* Pods_Apple_Cocoapod_KochavaTracker_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Apple_Cocoapod_KochavaTracker_Tests.framework; path = "Pods-Apple-Cocoapod-KochavaTracker_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1AB3C70A143D06E082E1F8AD5B9E310 /* Pods-Apple-Cocoapod-KochavaTracker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Apple-Cocoapod-KochavaTracker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C24005874C3509BCDA33DFB892D25D60 /* Pods-Apple-Cocoapod-KochavaTracker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Apple-Cocoapod-KochavaTracker_Example.modulemap"; sourceTree = "<group>"; };
 		DA937E0A3B3D105F6B89C74298EED5F5 /* Apple-Cocoapod-KochavaTracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Apple-Cocoapod-KochavaTracker.release.xcconfig"; sourceTree = "<group>"; };
@@ -144,6 +142,7 @@
 				88BB9CF2159A0458C2DB6F95EE2D7C8A /* Frameworks */,
 				BA076823ED653A565C8E306989E5BCC8 /* Support Files */,
 			);
+			name = "Apple-Cocoapod-KochavaCore";
 			path = "Apple-Cocoapod-KochavaCore";
 			sourceTree = "<group>";
 		};
@@ -358,7 +357,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1100;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1100;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -621,7 +620,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
