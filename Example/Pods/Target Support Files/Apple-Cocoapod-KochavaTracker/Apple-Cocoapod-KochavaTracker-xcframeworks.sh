@@ -20,22 +20,22 @@ variant_for_slice()
   "KochavaTracker.xcframework/tvos-arm64_x86_64-simulator")
     echo "simulator"
     ;;
-  "KochavaTracker.xcframework/watchos-arm64_32_armv7k")
+  "KochavaTracker.xcframework/ios-arm64_armv7")
     echo ""
     ;;
-  "KochavaTracker.xcframework/macos-arm64_x86_64")
+  "KochavaTracker.xcframework/watchos-arm64_i386_x86_64-simulator")
+    echo "simulator"
+    ;;
+  "KochavaTracker.xcframework/watchos-arm64_32_armv7k")
     echo ""
     ;;
   "KochavaTracker.xcframework/ios-arm64_i386_x86_64-simulator")
     echo "simulator"
     ;;
-  "KochavaTracker.xcframework/watchos-arm64_i386_x86_64-simulator")
-    echo "simulator"
-    ;;
-  "KochavaTracker.xcframework/ios-arm64_armv7")
+  "KochavaTracker.xcframework/tvos-arm64")
     echo ""
     ;;
-  "KochavaTracker.xcframework/tvos-arm64")
+  "KochavaTracker.xcframework/macos-arm64_x86_64")
     echo ""
     ;;
   "KochavaTracker.xcframework/ios-arm64_x86_64-maccatalyst")
@@ -50,23 +50,23 @@ archs_for_slice()
   "KochavaTracker.xcframework/tvos-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
-  "KochavaTracker.xcframework/watchos-arm64_32_armv7k")
-    echo "arm64_32 armv7k"
-    ;;
-  "KochavaTracker.xcframework/macos-arm64_x86_64")
-    echo "arm64 x86_64"
-    ;;
-  "KochavaTracker.xcframework/ios-arm64_i386_x86_64-simulator")
-    echo "arm64 i386 x86_64"
+  "KochavaTracker.xcframework/ios-arm64_armv7")
+    echo "arm64 armv7"
     ;;
   "KochavaTracker.xcframework/watchos-arm64_i386_x86_64-simulator")
     echo "arm64 i386 x86_64"
     ;;
-  "KochavaTracker.xcframework/ios-arm64_armv7")
-    echo "arm64 armv7"
+  "KochavaTracker.xcframework/watchos-arm64_32_armv7k")
+    echo "arm64_32 armv7k"
+    ;;
+  "KochavaTracker.xcframework/ios-arm64_i386_x86_64-simulator")
+    echo "arm64 i386 x86_64"
     ;;
   "KochavaTracker.xcframework/tvos-arm64")
     echo "arm64"
+    ;;
+  "KochavaTracker.xcframework/macos-arm64_x86_64")
+    echo "arm64 x86_64"
     ;;
   "KochavaTracker.xcframework/ios-arm64_x86_64-maccatalyst")
     echo "arm64 x86_64"
@@ -153,5 +153,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaTracker/Frameworks/KochavaTracker.xcframework" "Apple-Cocoapod-KochavaTracker" "framework" "ios-arm64_i386_x86_64-simulator" "ios-arm64_armv7" "ios-arm64_x86_64-maccatalyst"
+install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaTracker/Frameworks/KochavaTracker.xcframework" "Apple-Cocoapod-KochavaTracker" "framework" "ios-arm64_armv7" "ios-arm64_i386_x86_64-simulator" "ios-arm64_x86_64-maccatalyst"
 
