@@ -9,7 +9,7 @@
 
 ## Overview
 
-The KochavaTracker module is an optional module within the Kochava SDK providing install attribution and analytics.  This includes support for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.
+The KochavaTracker cocoapod is an optional module within the Kochava SDK providing install attribution and analytics.  This includes support for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.
 
 The Kochava SDK is a lightweight and easy to integrate SDK written in Swift, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
 
