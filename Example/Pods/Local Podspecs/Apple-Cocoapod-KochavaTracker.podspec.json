@@ -3,7 +3,7 @@
   "version": "7.1.0",
   "summary": "The KochavaTracker module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.",
   "description": "The KochavaTracker module is an optional module within the Kochava SDK providing install attribution and analytics.  This includes support or compatibility for iOS, macOS, macCatalyst, tvOS, and watchOS.",
-  "homepage": "https://cocoapods.org/pods/Apple-Cocoapod-KochavaTracker",
+  "homepage": "https://github.com/Kochava/Apple-Cocoapod-KochavaTracker",
   "license": {
     "type": "Commercial",
     "file": "LICENSE"
