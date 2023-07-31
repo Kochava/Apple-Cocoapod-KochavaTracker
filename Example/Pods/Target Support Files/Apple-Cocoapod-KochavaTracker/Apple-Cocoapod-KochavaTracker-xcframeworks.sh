@@ -17,26 +17,26 @@ RSYNC_PROTECT_TMP_FILES=(--filter "P .*.??????")
 variant_for_slice()
 {
   case "$1" in
+  "KochavaTracker.xcframework/tvos-arm64")
+    echo ""
+    ;;
+  "KochavaTracker.xcframework/ios-arm64_x86_64-maccatalyst")
+    echo "maccatalyst"
+    ;;
   "KochavaTracker.xcframework/watchos-arm64_i386_x86_64-simulator")
     echo "simulator"
     ;;
   "KochavaTracker.xcframework/ios-arm64")
     echo ""
     ;;
-  "KochavaTracker.xcframework/macos-arm64_x86_64")
-    echo ""
-    ;;
-  "KochavaTracker.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "maccatalyst"
-    ;;
-  "KochavaTracker.xcframework/tvos-arm64")
-    echo ""
+  "KochavaTracker.xcframework/tvos-arm64_x86_64-simulator")
+    echo "simulator"
     ;;
   "KochavaTracker.xcframework/ios-arm64_x86_64-simulator")
     echo "simulator"
     ;;
-  "KochavaTracker.xcframework/tvos-arm64_x86_64-simulator")
-    echo "simulator"
+  "KochavaTracker.xcframework/macos-arm64_x86_64")
+    echo ""
     ;;
   "KochavaTracker.xcframework/watchos-arm64_arm64_32_armv7k")
     echo ""
@@ -47,25 +47,25 @@ variant_for_slice()
 archs_for_slice()
 {
   case "$1" in
+  "KochavaTracker.xcframework/tvos-arm64")
+    echo "arm64"
+    ;;
+  "KochavaTracker.xcframework/ios-arm64_x86_64-maccatalyst")
+    echo "arm64 x86_64"
+    ;;
   "KochavaTracker.xcframework/watchos-arm64_i386_x86_64-simulator")
     echo "arm64 i386 x86_64"
     ;;
   "KochavaTracker.xcframework/ios-arm64")
     echo "arm64"
     ;;
-  "KochavaTracker.xcframework/macos-arm64_x86_64")
+  "KochavaTracker.xcframework/tvos-arm64_x86_64-simulator")
     echo "arm64 x86_64"
-    ;;
-  "KochavaTracker.xcframework/ios-arm64_x86_64-maccatalyst")
-    echo "arm64 x86_64"
-    ;;
-  "KochavaTracker.xcframework/tvos-arm64")
-    echo "arm64"
     ;;
   "KochavaTracker.xcframework/ios-arm64_x86_64-simulator")
     echo "arm64 x86_64"
     ;;
-  "KochavaTracker.xcframework/tvos-arm64_x86_64-simulator")
+  "KochavaTracker.xcframework/macos-arm64_x86_64")
     echo "arm64 x86_64"
     ;;
   "KochavaTracker.xcframework/watchos-arm64_arm64_32_armv7k")
@@ -153,5 +153,5 @@ install_xcframework() {
   echo "Copied $source to $destination"
 }
 
-install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaTracker/Frameworks/KochavaTracker.xcframework" "Apple-Cocoapod-KochavaTracker" "framework" "ios-arm64" "ios-arm64_x86_64-maccatalyst" "ios-arm64_x86_64-simulator"
+install_xcframework "${PODS_ROOT}/../../Apple-Cocoapod-KochavaTracker/Frameworks/KochavaTracker.xcframework" "Apple-Cocoapod-KochavaTracker" "framework" "ios-arm64_x86_64-maccatalyst" "ios-arm64" "ios-arm64_x86_64-simulator"
 
