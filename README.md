@@ -7,19 +7,28 @@
 
 <img src="https://storage.googleapis.com/kochava-web/2016/07/Kochava-horizontal-black-800x154.png" width="260" />
 
-## Overview
+## Deprecation Notice
 
-The KochavaTracker cocoapod is an optional module within the Kochava SDK providing install attribution and analytics.  This includes support for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.
+This repository was deprecated on February 22, 2024.  Please instead use [Apple-SwiftPackage-KochavaMeasurement-XCFramework](https://github.com/Kochava/Apple-SwiftPackage-KochavaMeasurement-XCFramework) with [Apple-SwiftPackage-KochavaTracking-XCFramework](https://github.com/Kochava/Apple-SwiftPackage-KochavaTracking-XCFramework).
 
-The Kochava SDK is a lightweight and easy to integrate SDK written in Swift, providing first-class integration with Kochava’s industry leading mobile attribution and analytics platform.
+There is a process to migrate from v7.x to v8.x which for most integrations is expected to take about 15 minutes.
+
+For more information, please see [Migrating to v8](https://support.kochava.com/sdk-integration/ios-sdk-integration/ios-migrating-to-v8/).
+
+## KochavaTracker
+
+The KochavaTracker framework is an SDK providing industry-leading install measurement and attribution. For the Apple platform this includes support for iOS, macCatalyst, macOS, tvOS, and watchOS.
+
+The Kochava SDK is a lightweight and easy to integrate SDK written in Swift, providing first-class integration with Kochava’s industry leading mobile attribution and measurement platform.  
 
 ## Built on
 
-* Xcode 14.1
+* Xcode 15.2
 
-## Requirements
+## Platforms
 
 * iOS 12.4
+* macCatalyst 12.4
 * macOS 10.14
 * tvOS 12.4
 * watchOS 7.0
