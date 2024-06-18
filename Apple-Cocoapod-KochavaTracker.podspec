@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name             = 'Apple-Cocoapod-KochavaTracker'
-    s.version          = '7.5.0'
+    s.version          = '7.6.0'
     s.summary          = 'The KochavaTracker module of the KochavaTracker SDK for Apple iOS, macOS, macCatalyst, tvOS, and watchOS.'
 
     s.description  = <<-DESC
@@ -36,7 +36,7 @@ Pod::Spec.new do |s|
     s.osx.frameworks   = 'Foundation', 'AppKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'CoreTelephony', 'SystemConfiguration', 'WebKit'
     s.tvos.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'AdSupport', 'CoreGraphics', 'SystemConfiguration'
     s.watchos.frameworks   = 'Foundation', 'UIKit', 'AVFoundation', 'CoreGraphics'
-    s.dependency 'Apple-Cocoapod-KochavaCore', '~> 7.5.0'
+    s.dependency 'Apple-Cocoapod-KochavaCore', '~> 7.6.0'
 
     # s.platforms = { :ios => "12.4", :osx => "10.14", :tvos => "12.4", :watchos => "7.0" }
     s.vendored_frameworks = 'Apple-Cocoapod-KochavaTracker/Frameworks/KochavaTracker.xcframework'
